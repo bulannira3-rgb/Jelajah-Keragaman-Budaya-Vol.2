@@ -1,0 +1,18 @@
+JELAJAH NUSANTARA - CATATAN PERUBAHAN
+Buka file: index_new.html (cukup klik dua kali di browser; tidak perlu instalasi).
+
+1. FOTO MATERI
+- 51 kartu yang tadinya kosong sekarang terhubung ke foto di folder assets/ (senjata tradisional dan upacara/adat istiadat).
+- Peta persebaran budaya: jalur diperbaiki ke assets/lagu-daerah/peta-persebaran-budya.webp.
+- Kartu tanpa foto (Ngulok, Labuhan, Bahasa Sasak) menampilkan ILUSTRASI bawaan dengan label "Ilustrasi - foto belum tersedia".
+- Foto yang gagal dimuat otomatis diganti ilustrasi, bukan kotak kosong.
+- Untuk menambah foto: isi imageUrl pada ITEM_CONTENT di dalam index_new.html.
+
+2. KUIS (edit di QUIZ_PLATFORMS pada index_new.html)
+- Empat kartu: Wayground, Blooket, ZEP Quiz, Quizizz. Isi "url" tiap platform; url kosong = tombol menampilkan pemberitahuan "belum dihubungkan".
+- Logo Blooket, ZEP Quiz, Quizizz di assets/logo/ adalah logo SEMENTARA buatan sendiri. Ganti dengan logo resmi (nama file sama).
+
+3. MUSIK
+- Satu pemutar untuk seluruh situs: tidak bertumpuk dan tidak putus saat pindah halaman.
+- Dicoba otomatis saat dibuka; jika diblokir browser, mulai pada sentuhan/klik/tombol pertama.
+- Setelah ditekan OFF, musik tidak menyala sendiri (pilihan diingat selama sesi browser).
